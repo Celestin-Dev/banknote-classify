@@ -1,0 +1,58 @@
+# Environnement virtuel
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensions compilées
+*.so
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Modèles entraînés
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# Variables d'environnement
+.env
+env
+
+# Couverture de tests
+.coverage
+htmlcov/
+
+# Cache pytest
+.pytest_cache/
+
+# Cache mypy
+.mypy_cache/
+
+# Cache Ruff
+.ruff_cache/
+
+# Données générées (optionnel)
+data/processed/
+
+# Rapports générés
+reports/figures/
